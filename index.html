@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <head>
-    <meta charset = "UTF-8">
-    <meta name = "viewport" content="width-device-width, initial-scale = 1.0">
-    <title>Login</title>
-
-    <link rel="stylesheet" href="/style.css">
-</head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
 <body>
-    <div class ="form-container">
-    <h2>Login</h2>
-    <form action="/login" method="post">
-        <div class="form-group">
-            <label for="name">User Name</label>
-            <input type="text" id="name" name="username" placeholder="Enter Your Name" required autocomplete="off">
+    <section class="box">
+        <div class="design">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-        <div class="form-group">
-            <label for=" password">Password</label>
-            <input type="password" name="password" placeholder="Password" id="password" required>
+        <div class="form">
+            <h2>User Login</h2>
+            <form action="/" method="POST">
+                <input type="name" name="username" class="input-field" placeholder="Username" />
+                <input type="password" name="password" class="input-field" placeholder="Password" />
+                <input type="submit" class="btn" value="LOGIN">
+            </form>
         </div>
-        <button type="submit" class="submit-btn">Login</button>
-    </form>
-      <p>Dont have an account? <a href="/signup">Signup</a></p>
-    </div>
-</body>   
+    </section>
+</body>
 </html>
